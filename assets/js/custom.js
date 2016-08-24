@@ -7,9 +7,11 @@ $('#container').click(function(){
 });
 
 function openNav(){
+
   document.getElementById("leftside-nav-bar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
   document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    document.getElementsByClassName('left-button-nav');
   nav = true;
 }
 
